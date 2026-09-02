@@ -19,7 +19,7 @@ public class GradeCalculator {public static void main(String[] args) {
     double averageCodeEvaluationGrade = in.nextDouble();
     System.out.println("Average code evaluation grade: " + averageCodeEvaluationGrade);
     double weightedAverageCodeEvaluationGrade = Math.round(averageCodeEvaluationGrade / 100.0 * 18 * 100) / 100.0;
-    System.out.println("Weighted lecture quiz grade (out of 18): " + weightedAverageCodeEvaluationGrade + "%");
+    System.out.println("Weighted average code evaluation grade (out of 18): " + weightedAverageCodeEvaluationGrade + "%");
     System.out.println("What is your average exam grade?");
     double averageExamGrade = in.nextDouble();
     System.out.println("Average exam grade: " + averageExamGrade);
